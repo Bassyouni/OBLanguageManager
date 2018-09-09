@@ -28,9 +28,9 @@ To get Started all you need is to add a variable with language name that equals 
 ```ruby
 let OBArabic: String = "ar"
 ```
-then added in 'isSupportedLanguage' method.
+then add it to 'isSupportedLanguage' method.
 
-Then you can Localize a String with it's key
+Then you can Localize a String with its key
 ```ruby
 someLabel.text = OBLanguageManager.localizedString(key: "good_morning")
 ```
@@ -46,6 +46,7 @@ Note that to change the orientation you have to go back to the root view control
 ```ruby
 OBLanguageManager.forceRightToLeft()
 ```
+Please check out the Demo for more clarification.
 
 ## Author
 
