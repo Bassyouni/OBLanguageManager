@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "1hv-Rk-Q74"; */
+"1hv-Rk-Q74.normalTitle" = "English";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "GEb-aq-AIz"; */
+"GEb-aq-AIz.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Arabic"; ObjectID = "Qxf-gU-PXI"; */
+"Qxf-gU-PXI.normalTitle" = "Arabic";
+
+/* Class = "UILabel"; text = "This text should be on the right in English , and from the left for Arabic"; ObjectID = "dAF-Zm-0uf"; */
+"dAF-Zm-0uf.text" = "This text should be on the right in English , and from the left for Arabic";
+
+/* Class = "UILabel"; text = "Select Language"; ObjectID = "oj4-qy-3Ne"; */
+"oj4-qy-3Ne.text" = "Select Language";
+
+/* Class = "UILabel"; text = "Good Morning"; ObjectID = "vgK-4e-TVe"; */
+"vgK-4e-TVe.text" = "Good Morning";

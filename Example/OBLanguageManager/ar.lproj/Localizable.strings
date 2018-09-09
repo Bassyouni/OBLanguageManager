@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  OBLanguageManager
+
+  Created by Bassyouni Pro on 9/9/18.
+  Copyright © 2018 CocoaPods. All rights reserved.
+*/
+
+"english" = "الإنجليزية";
+
+"arabic" = "عربى";
+
+"good_morning" = "صباح الخير";
+
+"select_language" = "اختار اللغة";
+
+"text_alignmnet" = "يجب أن يكون هذا النص على اليسار للغة الإنجليزية ، ومن اليمين للغة العربية";
+
+"next" = "التالى";
+
+"change_language" = "غير اللغة";
