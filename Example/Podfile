@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OBLanguageManager_Example' do
+  pod 'OBLanguageManager', :path => '../'
+
+  target 'OBLanguageManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
