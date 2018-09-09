@@ -1,0 +1,16 @@
+PODS:
+  - OBLanguageManager (0.1.0)
+
+DEPENDENCIES:
+  - OBLanguageManager (from `../`)
+
+EXTERNAL SOURCES:
+  OBLanguageManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OBLanguageManager: c98a7e6df20c07e6aca70e654fdbec83bc35d210
+
+PODFILE CHECKSUM: 800e5c4b0e85235ac30031f4df20bf9402ee297d
+
+COCOAPODS: 1.5.3

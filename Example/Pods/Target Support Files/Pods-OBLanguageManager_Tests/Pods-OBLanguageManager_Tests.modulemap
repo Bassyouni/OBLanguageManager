@@ -1,0 +1,6 @@
+framework module Pods_OBLanguageManager_Tests {
+  umbrella header "Pods-OBLanguageManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

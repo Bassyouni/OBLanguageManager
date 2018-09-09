@@ -1,0 +1,6 @@
+framework module OBLanguageManager {
+  umbrella header "OBLanguageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
