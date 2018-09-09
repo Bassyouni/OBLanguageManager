@@ -11,8 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Description
 OBLanguageManager allows you to change the language of your app within the app and without the need to restart.Also it helps mange your localization and supports Right to left orientation for languages like Arabic, Hebrew, etc..
-OBLanguageManager is easy, small, and in Swift :).
-DESC
+OBLanguageManager is easy, small, and in Swift :) .
 
 ## Installation
 
