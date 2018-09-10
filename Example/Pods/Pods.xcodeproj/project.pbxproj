@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		845C97EA4058746598A87D500DE44BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		9A39C4237A45B73B40EB6D222CB3F46E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AA9675899FC67DDDC07B60639FAA93D7 /* Pods-OBLanguageManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DFCBAA3922C32FBAD9F61DC2B95AA7 /* Pods-OBLanguageManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03B8AB599D07F6007C637F716FABC23E /* Pods-OBLanguageManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F98A31CFE57FB336B1073CE99E9DC63 /* Pods-OBLanguageManager_Example-dummy.m */; };
+		04C36CB75BB8D9AAEFFC29DFF6623AF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		54D71B34F5DF0DCC88AF08745F61F9BB /* OBLanguageManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7273239B56D3865045E1DD43C3C4182B /* OBLanguageManager-dummy.m */; };
+		7E95A280E4F7878105FA514C6D1DEA72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		845C97EA4058746598A87D500DE44BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		97A77A980CB47C978A134EFDEF6E0A98 /* OBLanguageManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BB34D778AA3277DC4D36FE3F1C98A2 /* OBLanguageManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BB0926A114375DD50A2C74C47EAF81A /* OBLanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA744061042ECD5BF348458CD5822A9B /* OBLanguageManager.swift */; };
+		BF2DEE93F1C20CD1E63123F50627D805 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		DBB543C80EF42400EBB499CCC478F95C /* Pods-OBLanguageManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46244CDC7E60304AFFCCB6D5BE2555E2 /* Pods-OBLanguageManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDFE53E2EAAA9FFBC749E6CFF0A15DBB /* Pods-OBLanguageManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F98A31CFE57FB336B1073CE99E9DC63 /* Pods-OBLanguageManager_Example-dummy.m */; };
+		E4D5B210C440CB8D373A378958CBB0D0 /* Pods-OBLanguageManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38DFCBAA3922C32FBAD9F61DC2B95AA7 /* Pods-OBLanguageManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF4A3A7C5B8908AAE7710F1FFD92D35B /* Pods-OBLanguageManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 773825001812474F007AEB1B0914790E /* Pods-OBLanguageManager_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -20,16 +25,25 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3ECA31D5C6E598F61FE3219B7F356E7C;
+			remoteGlobalIDString = 52FE1506F6FF45BB44E2886BED4EC9EF;
 			remoteInfo = "Pods-OBLanguageManager_Example";
+		};
+		A0888ED283F1427832695F604BE91027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88CDF9ABFB1AB1A23DEE397F52E21245;
+			remoteInfo = OBLanguageManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02C9B739A11BF20F663F52DF22CCD0DB /* Pods-OBLanguageManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OBLanguageManager_Example-resources.sh"; sourceTree = "<group>"; };
 		0F98A31CFE57FB336B1073CE99E9DC63 /* Pods-OBLanguageManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OBLanguageManager_Example-dummy.m"; sourceTree = "<group>"; };
+		147694AEE8EC1B35243684201174160B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		180134D854F9025303B9491DAC656E29 /* Pods-OBLanguageManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OBLanguageManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1FA389FDAAB6B4EA97F2BF63DB081583 /* Pods-OBLanguageManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OBLanguageManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		243A0F21F6BD8E31C3AB7AB4497A83A2 /* OBLanguageManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OBLanguageManager.framework; path = OBLanguageManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DBC59947DC40B0297CA2C359F00472 /* Pods-OBLanguageManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OBLanguageManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		32C1DE56DF3F7E4EEFD89A46C4AF8A28 /* Pods-OBLanguageManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OBLanguageManager_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33104A05AC1EF1E3BAF902ED7DEAAA07 /* Pods-OBLanguageManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OBLanguageManager_Tests.modulemap"; sourceTree = "<group>"; };
@@ -37,30 +51,46 @@
 		38DFCBAA3922C32FBAD9F61DC2B95AA7 /* Pods-OBLanguageManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OBLanguageManager_Example-umbrella.h"; sourceTree = "<group>"; };
 		3D5D49B6B7438E4B8A051B8825D0EA0E /* Pods-OBLanguageManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OBLanguageManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D91B07E1719621700233A65260A207B /* Pods-OBLanguageManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OBLanguageManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3E7CB97F2D39C407C1BF405F844FBC13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		409DBB7FC4035229B52BD365A185529E /* OBLanguageManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OBLanguageManager.xcconfig; sourceTree = "<group>"; };
 		46244CDC7E60304AFFCCB6D5BE2555E2 /* Pods-OBLanguageManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OBLanguageManager_Tests-umbrella.h"; sourceTree = "<group>"; };
 		59938FE40455D8EACFCF77F2BC7884E6 /* Pods-OBLanguageManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OBLanguageManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		59D59CA15F2C508C24DB53EF8C864661 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B6B2E6320B63CC073DE026B1CC909F6 /* Pods_OBLanguageManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OBLanguageManager_Example.framework; path = "Pods-OBLanguageManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A073D4973902607BD5CD850842DF0F7 /* OBLanguageManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OBLanguageManager-prefix.pch"; sourceTree = "<group>"; };
+		7273239B56D3865045E1DD43C3C4182B /* OBLanguageManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OBLanguageManager-dummy.m"; sourceTree = "<group>"; };
 		72DC07AC8E8D34DB9F81735CF0D70A8B /* Pods-OBLanguageManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OBLanguageManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		773825001812474F007AEB1B0914790E /* Pods-OBLanguageManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OBLanguageManager_Tests-dummy.m"; sourceTree = "<group>"; };
 		81F4A6AB06684F0D0F1E2B4D9A1B8879 /* Pods-OBLanguageManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OBLanguageManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82BB34D778AA3277DC4D36FE3F1C98A2 /* OBLanguageManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OBLanguageManager-umbrella.h"; sourceTree = "<group>"; };
+		92E04CE9382B83EBE1C6701E088DE251 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97E32202C0BF827A58272B5BB7FE8F59 /* OBLanguageManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OBLanguageManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A50A61628833CB5851525FFAE67B3F9D /* Pods_OBLanguageManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OBLanguageManager_Tests.framework; path = "Pods-OBLanguageManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B20D88E90584D825B77999B885EE782D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		98D9890884E76C58A9B4F855BB4A0946 /* Pods_OBLanguageManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OBLanguageManager_Tests.framework; path = "Pods-OBLanguageManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB598826C6801AA94B485666F0D27F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA744061042ECD5BF348458CD5822A9B /* OBLanguageManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OBLanguageManager.swift; path = OBLanguageManager/Classes/OBLanguageManager.swift; sourceTree = "<group>"; };
+		B3D8B8133B8DBE97DA2C08F0B61AB3D0 /* OBLanguageManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OBLanguageManager.modulemap; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C0B53105C7F2A15D6A52B6001467DC14 /* OBLanguageManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = OBLanguageManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D38056914D89AC9C7D63182537B5F65B /* Pods-OBLanguageManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OBLanguageManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA2A06955F9D4BBBA371518F4F9C807A /* Pods-OBLanguageManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OBLanguageManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E55554C0CF70EBE0BAD1E7FE0BD29FE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F93CDC054F6023DDD06943C05236C6DE /* Pods_OBLanguageManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OBLanguageManager_Example.framework; path = "Pods-OBLanguageManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F006346D63F4773DC5A3855074EAC618 /* Frameworks */ = {
+		7595B016A35A6B82C2232C3249E3EF53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A39C4237A45B73B40EB6D222CB3F46E /* Foundation.framework in Frameworks */,
+				04C36CB75BB8D9AAEFFC29DFF6623AF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC639AF2A456DD14752422A9C182E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2DEE93F1C20CD1E63123F50627D805 /* Foundation.framework in Frameworks */,
+				7E95A280E4F7878105FA514C6D1DEA72 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06BDEAB00AB5235C78ED60DFF601C5E3 /* OBLanguageManager */ = {
+		0C7E28C7FE53887BE94DA349589D538D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F54C3789884C3BC7C9A984FD6DE78162 /* Pod */,
+				243A0F21F6BD8E31C3AB7AB4497A83A2 /* OBLanguageManager.framework */,
+				F93CDC054F6023DDD06943C05236C6DE /* Pods_OBLanguageManager_Example.framework */,
+				98D9890884E76C58A9B4F855BB4A0946 /* Pods_OBLanguageManager_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EE7D285B27C6CEF46CFAAB63D486DE /* OBLanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				AA744061042ECD5BF348458CD5822A9B /* OBLanguageManager.swift */,
+				93E31CF723A6026621201D2051FD4829 /* Pod */,
+				B05C8E14E409211F1742179A4563ED41 /* Support Files */,
 			);
 			name = OBLanguageManager;
 			path = ../..;
@@ -102,21 +144,30 @@
 			path = "Target Support Files/Pods-OBLanguageManager_Example";
 			sourceTree = "<group>";
 		};
-		52CA89C069AA30386B3A29EAB2BF8547 /* Development Pods */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				06BDEAB00AB5235C78ED60DFF601C5E3 /* OBLanguageManager */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Development Pods";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				52CA89C069AA30386B3A29EAB2BF8547 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BF7194791D4D0269670C96336A7F5DE7 /* Products */,
+				C4467F574C735ECF28B7BFD465D7D4D9 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0C7E28C7FE53887BE94DA349589D538D /* Products */,
 				CAAF7685A6AFC3805BADC27881D8946B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -139,21 +190,36 @@
 			path = "Target Support Files/Pods-OBLanguageManager_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		93E31CF723A6026621201D2051FD4829 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				92E04CE9382B83EBE1C6701E088DE251 /* LICENSE */,
+				C0B53105C7F2A15D6A52B6001467DC14 /* OBLanguageManager.podspec */,
+				147694AEE8EC1B35243684201174160B /* README.md */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		BF7194791D4D0269670C96336A7F5DE7 /* Products */ = {
+		B05C8E14E409211F1742179A4563ED41 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5B6B2E6320B63CC073DE026B1CC909F6 /* Pods_OBLanguageManager_Example.framework */,
-				A50A61628833CB5851525FFAE67B3F9D /* Pods_OBLanguageManager_Tests.framework */,
+				9FB598826C6801AA94B485666F0D27F1 /* Info.plist */,
+				B3D8B8133B8DBE97DA2C08F0B61AB3D0 /* OBLanguageManager.modulemap */,
+				409DBB7FC4035229B52BD365A185529E /* OBLanguageManager.xcconfig */,
+				7273239B56D3865045E1DD43C3C4182B /* OBLanguageManager-dummy.m */,
+				6A073D4973902607BD5CD850842DF0F7 /* OBLanguageManager-prefix.pch */,
+				82BB34D778AA3277DC4D36FE3F1C98A2 /* OBLanguageManager-umbrella.h */,
 			);
-			name = Products;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OBLanguageManager";
+			sourceTree = "<group>";
+		};
+		C4467F574C735ECF28B7BFD465D7D4D9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27EE7D285B27C6CEF46CFAAB63D486DE /* OBLanguageManager */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CAAF7685A6AFC3805BADC27881D8946B /* Targets Support Files */ = {
@@ -165,32 +231,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F54C3789884C3BC7C9A984FD6DE78162 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				3E7CB97F2D39C407C1BF405F844FBC13 /* LICENSE */,
-				97E32202C0BF827A58272B5BB7FE8F59 /* OBLanguageManager.podspec */,
-				B20D88E90584D825B77999B885EE782D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		28329C7EB61210077A4EB35C6CEE3FA4 /* Headers */ = {
+		673ED6EED5255817383C1928D8780D7D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9675899FC67DDDC07B60639FAA93D7 /* Pods-OBLanguageManager_Example-umbrella.h in Headers */,
+				E4D5B210C440CB8D373A378958CBB0D0 /* Pods-OBLanguageManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,24 +250,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8EBBE36B50737D66E86D83758AFD691 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A77A980CB47C978A134EFDEF6E0A98 /* OBLanguageManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3ECA31D5C6E598F61FE3219B7F356E7C /* Pods-OBLanguageManager_Example */ = {
+		52FE1506F6FF45BB44E2886BED4EC9EF /* Pods-OBLanguageManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEA7F31219D0776A61F677F18DDE15FA /* Build configuration list for PBXNativeTarget "Pods-OBLanguageManager_Example" */;
+			buildConfigurationList = 7382DEBCAC1552657450A84C944996E8 /* Build configuration list for PBXNativeTarget "Pods-OBLanguageManager_Example" */;
 			buildPhases = (
-				060A58682FF7FF78BC6CA63F3FF2F41B /* Sources */,
-				F006346D63F4773DC5A3855074EAC618 /* Frameworks */,
-				28329C7EB61210077A4EB35C6CEE3FA4 /* Headers */,
+				812748060358427592F9BAB1EC8A3938 /* Sources */,
+				7595B016A35A6B82C2232C3249E3EF53 /* Frameworks */,
+				673ED6EED5255817383C1928D8780D7D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57560BD83A8C649866EAC9FCE41C784B /* PBXTargetDependency */,
+			);
+			name = "Pods-OBLanguageManager_Example";
+			productName = "Pods-OBLanguageManager_Example";
+			productReference = F93CDC054F6023DDD06943C05236C6DE /* Pods_OBLanguageManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88CDF9ABFB1AB1A23DEE397F52E21245 /* OBLanguageManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112089C829532152C65F3C0830A713A6 /* Build configuration list for PBXNativeTarget "OBLanguageManager" */;
+			buildPhases = (
+				4DEC5A73D52EF320E0D9B72B6C3B2346 /* Sources */,
+				EAC639AF2A456DD14752422A9C182E0C /* Frameworks */,
+				E8EBBE36B50737D66E86D83758AFD691 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-OBLanguageManager_Example";
-			productName = "Pods-OBLanguageManager_Example";
-			productReference = 5B6B2E6320B63CC073DE026B1CC909F6 /* Pods_OBLanguageManager_Example.framework */;
+			name = OBLanguageManager;
+			productName = OBLanguageManager;
+			productReference = 243A0F21F6BD8E31C3AB7AB4497A83A2 /* OBLanguageManager.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F554458AC30F65038F061B282888B3E8 /* Pods-OBLanguageManager_Tests */ = {
@@ -237,7 +311,7 @@
 			);
 			name = "Pods-OBLanguageManager_Tests";
 			productName = "Pods-OBLanguageManager_Tests";
-			productReference = A50A61628833CB5851525FFAE67B3F9D /* Pods_OBLanguageManager_Tests.framework */;
+			productReference = 98D9890884E76C58A9B4F855BB4A0946 /* Pods_OBLanguageManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -257,25 +331,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BF7194791D4D0269670C96336A7F5DE7 /* Products */;
+			productRefGroup = 0C7E28C7FE53887BE94DA349589D538D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3ECA31D5C6E598F61FE3219B7F356E7C /* Pods-OBLanguageManager_Example */,
+				88CDF9ABFB1AB1A23DEE397F52E21245 /* OBLanguageManager */,
+				52FE1506F6FF45BB44E2886BED4EC9EF /* Pods-OBLanguageManager_Example */,
 				F554458AC30F65038F061B282888B3E8 /* Pods-OBLanguageManager_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		060A58682FF7FF78BC6CA63F3FF2F41B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDFE53E2EAAA9FFBC749E6CFF0A15DBB /* Pods-OBLanguageManager_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		280F759B3F224C397311BE96803D2143 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,52 +351,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DEC5A73D52EF320E0D9B72B6C3B2346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D71B34F5DF0DCC88AF08745F61F9BB /* OBLanguageManager-dummy.m in Sources */,
+				9BB0926A114375DD50A2C74C47EAF81A /* OBLanguageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		812748060358427592F9BAB1EC8A3938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03B8AB599D07F6007C637F716FABC23E /* Pods-OBLanguageManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		57560BD83A8C649866EAC9FCE41C784B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OBLanguageManager;
+			target = 88CDF9ABFB1AB1A23DEE397F52E21245 /* OBLanguageManager */;
+			targetProxy = A0888ED283F1427832695F604BE91027 /* PBXContainerItemProxy */;
+		};
 		B662846F9A70D6674BD255F6020FC105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OBLanguageManager_Example";
-			target = 3ECA31D5C6E598F61FE3219B7F356E7C /* Pods-OBLanguageManager_Example */;
+			target = 52FE1506F6FF45BB44E2886BED4EC9EF /* Pods-OBLanguageManager_Example */;
 			targetProxy = 0E5AD113EBAC2528F48E8046436803C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		111A06D7A6A0C974DA86506E974A61FD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D91B07E1719621700233A65260A207B /* Pods-OBLanguageManager_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OBLanguageManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OBLanguageManager_Example/Pods-OBLanguageManager_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		3EB58FC578AFB20EFDD6ECD947BE3442 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81F4A6AB06684F0D0F1E2B4D9A1B8879 /* Pods-OBLanguageManager_Tests.release.xcconfig */;
@@ -364,9 +420,9 @@
 			};
 			name = Release;
 		};
-		5AE00F4AFF742D3716F4D54BA6653E38 /* Debug */ = {
+		5BEDDA65349521F9A20F98B611CC3914 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 180134D854F9025303B9491DAC656E29 /* Pods-OBLanguageManager_Example.debug.xcconfig */;
+			baseConfigurationReference = 3D91B07E1719621700233A65260A207B /* Pods-OBLanguageManager_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -391,11 +447,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		5CFC917C79615D92D848A0D9AF13BB61 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -424,6 +482,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		670BB1212E28947067F3A3EB0CAD2A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409DBB7FC4035229B52BD365A185529E /* OBLanguageManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OBLanguageManager/OBLanguageManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OBLanguageManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OBLanguageManager/OBLanguageManager.modulemap";
+				PRODUCT_MODULE_NAME = OBLanguageManager;
+				PRODUCT_NAME = OBLanguageManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -551,9 +641,86 @@
 			};
 			name = Release;
 		};
+		B961438A47C4AA01A4D3D6B2015E664E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 409DBB7FC4035229B52BD365A185529E /* OBLanguageManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OBLanguageManager/OBLanguageManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OBLanguageManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OBLanguageManager/OBLanguageManager.modulemap";
+				PRODUCT_MODULE_NAME = OBLanguageManager;
+				PRODUCT_NAME = OBLanguageManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1427539FBB1B82217BA927E3CE63BE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180134D854F9025303B9491DAC656E29 /* Pods-OBLanguageManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OBLanguageManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OBLanguageManager_Example/Pods-OBLanguageManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		112089C829532152C65F3C0830A713A6 /* Build configuration list for PBXNativeTarget "OBLanguageManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				670BB1212E28947067F3A3EB0CAD2A2C /* Debug */,
+				B961438A47C4AA01A4D3D6B2015E664E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -563,20 +730,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7382DEBCAC1552657450A84C944996E8 /* Build configuration list for PBXNativeTarget "Pods-OBLanguageManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1427539FBB1B82217BA927E3CE63BE2 /* Debug */,
+				5BEDDA65349521F9A20F98B611CC3914 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9C5DDD8B7A1E4F27FA0712D850D8E2DC /* Build configuration list for PBXNativeTarget "Pods-OBLanguageManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CFC917C79615D92D848A0D9AF13BB61 /* Debug */,
 				3EB58FC578AFB20EFDD6ECD947BE3442 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEA7F31219D0776A61F677F18DDE15FA /* Build configuration list for PBXNativeTarget "Pods-OBLanguageManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5AE00F4AFF742D3716F4D54BA6653E38 /* Debug */,
-				111A06D7A6A0C974DA86506E974A61FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

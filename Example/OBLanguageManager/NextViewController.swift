@@ -35,13 +35,15 @@ class NextViewController: UIViewController {
         if OBLanguageManager.selectedLanguage() == "ar"
         {
             OBLanguageManager.setSelectedLanguage(language: "en")
+            OBLanguageManager.forceLeftToRight(storyboard: storyboard, rootVCIdentifier: "root")
         }
         else
         {
             OBLanguageManager.setSelectedLanguage(language: "ar")
+            OBLanguageManager.forceRightToLeft(storyboard: storyboard, rootVCIdentifier: "root")
         }
         
-        OBLanguageManager.forceLeftToRight(storyboard: storyboard, rootVCIdentifier: "root")
+        
     }
 
 }
