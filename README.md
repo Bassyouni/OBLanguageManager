@@ -25,25 +25,25 @@ pod 'OBLanguageManager'
 ## Usage
 
 To get Started all you need is to add a variable with language name that equals the language code
-```ruby
+```swift
 let OBArabic: String = "ar"
 ```
 then add it to 'isSupportedLanguage' method.
 
 Then you can Localize a String with its key
-```ruby
+```swift
 someLabel.text = OBLanguageManager.localizedString(key: "good_morning")
 ```
 To Set a Language
-```ruby
+```swift
 OBLanguageManager.setSelectedLanguage(language: "en")
 ```
 To change the orientation to Right to Left 
-```ruby
+```swift
 OBLanguageManager.forceRightToLeft(storyboard: storyboard,rootVCIdentifier: "root")
 ```
 Note that to change the orientation you have to go back to the root view controller and change the the window.rootViewController to it. the method above does it automatically, you can do it manully and just remove the parameters
-```ruby
+```swift
 OBLanguageManager.forceRightToLeft()
 ```
 Please check out the Demo for more clarification.
